@@ -1,6 +1,12 @@
 # Pulumi AWS serverless DynamoDB
 
+Tools:
+- Pulumi
+- API Gateway
+- DynamoDB
+
 > In this lab, you will create a serverless web application that uses API Gateway and Lambda, along with a dynamic DynamoDB-based hit counter.
+
 
 - Creating a New Project
 - Creating a DynamoDB Table
