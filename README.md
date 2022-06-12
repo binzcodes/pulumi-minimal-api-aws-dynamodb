@@ -1,22 +1,12 @@
-# Pulumi AWS serverless DynamoDB
+# Pulumi Minimnal serverless api DynamoDB
+
+> A minumal serverless API using AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
 
 Tools:
 - Pulumi
-- API Gateway
-- DynamoDB
-
-> In this lab, you will create a serverless web application that uses API Gateway and Lambda, along with a dynamic DynamoDB-based hit counter.
-
-
-- Creating a New Project
-- Creating a DynamoDB Table
-- Creating IAM Policies
-- Creating an API Gateway
-- Deploying Our Infrastructure
-- Replacing with Inline Code
-- Destroying Your Infrastructure
-
-Source: [awsworkshop.com](https://pulumi.awsworkshop.io/additional-content/120_serverless_application_patterns/1_new_project.html)
+- AWS Lambda
+- AWS API Gateway
+- AWS DynamoDB
 
 ## run
 
@@ -35,3 +25,5 @@ Clean up resources:
 pulumi destroy
 pulumi stack rm
 ```
+
+Based on: [awsworkshop.com](https://pulumi.awsworkshop.io/additional-content/120_serverless_application_patterns/1_new_project.html)

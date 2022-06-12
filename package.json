@@ -1,5 +1,5 @@
 {
-    "name": "pulumi-dynamo",
+    "name": "pulumi-minimal-dynamodb-api",
     "devDependencies": {
         "@types/node": "^14"
     },
