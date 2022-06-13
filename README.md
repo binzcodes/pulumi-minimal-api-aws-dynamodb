@@ -14,17 +14,17 @@ Tools:
 # run
 
 Deploy resources:
-```
-pulumi up
+```bash
+pulumi stack select && pulumi up
 ```
 
 Test the endpoint:
-```
+```bash
 for i in {1..5}; do curl $(pulumi stack output url); done
 ```
 
 Clean up resources:
-```
+```bash
 pulumi destroy
 pulumi stack rm
 ```
