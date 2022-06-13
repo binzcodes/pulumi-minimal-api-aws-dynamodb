@@ -2,9 +2,11 @@
     "name": "pulumi-minimal-dynamodb-api",
     "scripts": {
         "lint": "npx eslint . --ext .js,.ts",
-        "lint:fix": "npx eslint . --ext .js,.ts --fix"
+        "lint:fix": "npx eslint . --ext .js,.ts --fix",
+        "test": "jest"
     },
     "devDependencies": {
+        "@types/jest": "^28.1.1",
         "@types/node": "^14",
         "@typescript-eslint/eslint-plugin": "^5.27.1",
         "@typescript-eslint/parser": "^5.27.1",
@@ -13,7 +15,9 @@
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-import": "^2.26.0",
         "eslint-plugin-prettier": "^4.0.0",
-        "prettier": "^2.6.2"
+        "jest": "^28.1.1",
+        "prettier": "^2.6.2",
+        "ts-jest": "^28.0.5"
     },
     "dependencies": {
         "@pulumi/aws": "^5.6.0",
