@@ -5,21 +5,24 @@
 
 A minimal serverless API using AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
 
-Tools:
+### Infra:
 - Pulumi
 - AWS API Gateway
 - AWS Lambda
 - AWS DynamoDB
+- Github Actions
+- Gitpod
 
 # run
 
 Deploy resources:
 ```bash
-pulumi stack select && pulumi up
+pulumi up
 ```
 
 Test the endpoint:
 ```bash
+pulumi stack select && /
 for i in {1..5}; do curl $(pulumi stack output url); done
 ```
 
