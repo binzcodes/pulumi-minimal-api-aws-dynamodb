@@ -22,7 +22,7 @@
     "dependencies": {
         "@pulumi/aws": "^5.17.0",
         "@pulumi/awsx": "^0.40.0",
-        "@pulumi/pulumi": "^3.42.0",
+        "@pulumi/pulumi": "^3.46.0",
         "aws-sdk": "^2.1148.0"
     }
 }
